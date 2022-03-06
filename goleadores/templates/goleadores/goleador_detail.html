@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}
+    {{goleador.nombre}}
+{% endblock %}
+{% block content %}
+  <h1>{{goleador.nombre}}</h1>
+  <br>Rank : {{goleador.rank}}
+  <br>Selección : <img src="{{goleador.icono}}" alt="{{goleador.seleccion}}"> {{goleador.seleccion}}
+  <br>Nº de Goles : {{goleador.goles}}
+  <br>Partigos Jugados: {{goleador.partidos}}
+  <br>Goles de Penalti : {{goleador.penaltis}}
+  <br>Media de Gol por Partido : {{goleador.media}}
+  <br><img src="https://i.gifer.com/9t1I.gif">
+ 
+{% endblock %}

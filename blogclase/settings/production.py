@@ -1,24 +1,23 @@
 from .base import *
 
+
 DEBUG = False
-
-SECRET_KEY = 'isjdfyu6672hfkguieyljokrzvvwsydc&2d+_d6wd+t#eo2+t*ie3!cnt4ksdw!me9*%i'
-
-# ARREGLAR
-ALLOWED_HOSTS = ['*'] 
+SECRET_KEY = 'django-insecure-$ov&emfc3p_6_%9e%%0*7@0^eb65)3*aq+5pp9l)rck#@=^9mm'
 
 
 DATABASES = {
   "default": {
     "ENGINE": "django.db.backends.postgresql",
     "NAME": "blogclase",
-    "USER": "usuario",
-    "PASSWORD": "password",
+    "USER":  "adminblog",
+    "PASSWORD":"password",
     "HOST": "localhost",
     "PORT": "5432",
   }
 }
 
+# ARREGLAR
+ALLOWED_HOSTS = ['*'] 
 try:
     from .local import *
 except ImportError:

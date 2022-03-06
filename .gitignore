@@ -1,8 +1,2 @@
-db.sqlite3
-*pyc
 env
-data.json
-*.bak
-dump.sh
-nohup*
-static
+
