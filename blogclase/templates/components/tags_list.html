@@ -5,7 +5,7 @@
       {% for tag in tags %}
         <a href="{% slugurl 'tags' %}?tag={{ tag }}" style="text-decoration: none;">
           <span style="color:black;">{{ tag }}</span>
-        </a>|
+        </a>, 
       {% empty %}
         No tags yet
       {% endfor %}
