@@ -9,7 +9,7 @@ import json
 import os
 
 
-# borrar pelis
+# borrar goleadores
 for g in Goleador.objects.all():
     g.delete()
 
@@ -32,4 +32,4 @@ for goleador in goleadores:
     g.penaltis =  goleador["penaltis"]
     g.media =  goleador["media"]
     g.save()
-    rank +=1
+    rank +=1 #incrementamos en 1 cada vez que creamos un goleador
