@@ -1,12 +1,14 @@
 # tutorial_wagtail
-Para el entorni virtual :
-windows: python -m venv env
-         pip install -r requirements.txt
-         env\Scripts\activate.bat
+Para el entorno virtual :
+windows:
+python -m venv env
+pip install -r requirements.txt
+env\Scripts\activate.bat
 
-linux:  python3 -m venv env
-        pip install -r requirements.txt
-        source env/bin/activate
+linux:  
+python3 -m venv env
+pip install -r requirements.txt
+source env/bin/activate
         
 # importar goleadores:
 py manage.py shell
